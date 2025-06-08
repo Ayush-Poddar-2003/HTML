@@ -2,8 +2,6 @@
 To collect user input  
 
 The `<form>` element is a container for different types of input elements  
-The `<input>` element is the most used form element.
-that can be displayed in many ways, depending on the type attribute.
 
 ---
 `<input type="text">`	  
@@ -21,7 +19,7 @@ Displays a single-line text input field
 `<input type="button">`	   
 Displays a clickable button
 
----
+
 
 ## <center>LABEL
 The `<label>` tag defines a label for many form elements  
@@ -30,8 +28,8 @@ The `value` attribute specifies an initial value for an input field:
 
 ## <center>FORM SUBMISSION
 The `<input type="submit">` defines a button for submitting the form data to a form-handler.  
+The form-handler is specified in the form's action attribute.  
 To submit `name` attribute is must.  
-The form-handler is specified in the form's action attribute.
 
 ```HTML
 <form action="/action_page.php">
